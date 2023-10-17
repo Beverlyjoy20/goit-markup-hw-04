@@ -245,7 +245,8 @@ h2 {
 .customers {
   flex: inline-block;
   flex-direction: row;
-  justify-content: space-around;
+  margin: auto;
+  gap: 24px;
 }
 
 /*div .customer-logo {
