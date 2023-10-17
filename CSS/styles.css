@@ -20,6 +20,7 @@
   --White: #fff;
   --Cornflower: #e7e9fc;
   --SLATE: #434455;
+  --lightslate: #8e8f99;
 
   /* Navigational links CSS */
 }
@@ -235,6 +236,18 @@ h2 {
   gap: 8px;
 }
 
+.content4title {
+  text-align: center;
+  margin-bottom: 72px;
+  margin-top: 120px;
+}
+
+div .customer-logo {
+  border: 1px solid var(--lightslate);
+  padding: 16px 32px;
+  border-radius: 4px;
+  margin: 0px 12px 120px 12px;
+}
 /*footer CSS*/
 
 .footer {
