@@ -243,12 +243,14 @@ h2 {
 }
 
 .customers {
-  flex: inline-block;
+  display: inline-flex;
   flex-direction: row;
   margin: auto;
   gap: 24px;
 }
-
+.content4icons {
+  display: flex;
+}
 /*div .customer-logo {
   border: 1px solid var(--lightslate);
   padding: 32px 32px;
