@@ -83,7 +83,7 @@ button:hover {
 }
 
 .title {
-  background-image: url('/Images/people_office.jpg');
+  background-image: url('./Images/people_office.jpg');
   background-size: cover;
   background-position: center;
   background-position-y: -135px;
