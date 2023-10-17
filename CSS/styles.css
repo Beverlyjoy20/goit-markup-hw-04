@@ -247,6 +247,8 @@ div .customer-logo {
   padding: 16px 32px;
   border-radius: 4px;
   margin: 0px 12px 120px 12px;
+  flex: inline-block;
+  justify-content: space-around;
 }
 /*footer CSS*/
 
