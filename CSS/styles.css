@@ -236,6 +236,8 @@ h2 {
   gap: 8px;
 }
 
+/*Content 4 CSS*/
+
 .content4title {
   text-align: center;
   margin-bottom: 72px;
@@ -248,11 +250,11 @@ h2 {
   border: 1px solid var(--lightslate);
   padding: 16px 32px;
   border-radius: 4px;
-
   margin: 0px 12px 120px 12px;
 }
 .content4icons {
   display: flex;
+  justify-content: space-around;
   margin: auto;
 }
 
