@@ -245,7 +245,6 @@ h2 {
 .customers {
   display: inline-flex;
   flex-direction: row;
-  margin: auto;
   border: 1px solid var(--lightslate);
   padding: 16px 32px;
   border-radius: 4px;
