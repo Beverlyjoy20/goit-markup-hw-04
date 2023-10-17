@@ -105,7 +105,9 @@ button:hover {
   padding-bottom: 200px;
 }
 .titleoverlay {
-  background-color: var(--Navy-Blue) rgb(0, 0, 0, 0.5);
+  background-color: var(--Navy-Blue);
+  opacity: rgb(0, 0, 0, 0.5);
+  height: 500px;
 }
 
 .herotitle {
