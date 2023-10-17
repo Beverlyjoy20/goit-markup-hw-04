@@ -55,7 +55,6 @@
 .headerlinks-right .link2 {
   /*text decorations*/
   text-decoration: none;
-  font-weight: normal;
   color: black;
   font-size: 16px;
   padding-right: 20px;
@@ -154,11 +153,18 @@ h2 {
   padding-right: 50px;
 }
 
+.content1-iconcontainer {
+  background-color: var(--Cloud);
+  padding: 24px 100px;
+  text-align: center;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
 .content1details {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 8px 5px;
+  padding: 8px 8px;
   font-size: 16px;
   font-family: 'roboto', sans-serif;
 }
@@ -174,7 +180,6 @@ h2 {
 .content2images {
   display: flex;
   justify-content: center;
-  flex-wrap: nowrap;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -226,7 +231,7 @@ h2 {
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  padding: 32px;
+  padding: 32px 32px 0px 32px;
   gap: 8px;
 }
 
@@ -268,7 +273,9 @@ h2 {
   margin-top: 15px;
   margin-right: 8px;
 }
-
+div .teamsocialicons {
+  margin-bottom: 32px;
+}
 div .team-icon {
   display: inline-block;
   flex-direction: row;
