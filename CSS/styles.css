@@ -104,11 +104,12 @@ button:hover {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.titleoverlay {
+/*.titleoverlay {
   background-color: var(--Navy-Blue);
   opacity: rgb(0, 0, 0, 0.5);
   height: 500px;
 }
+*/
 
 .herotitle {
   border: 0;
