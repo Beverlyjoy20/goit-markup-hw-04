@@ -241,14 +241,16 @@ h2 {
   margin-bottom: 72px;
   margin-top: 120px;
 }
-
+div .customers {
+  flex: inline-block;
+  flex-direction: row;
+  justify-content: space-around;
+}
 div .customer-logo {
   border: 1px solid var(--lightslate);
   padding: 16px 32px;
   border-radius: 4px;
   margin: 0px 12px 120px 12px;
-  flex: inline-block;
-  justify-content: space-around;
 }
 /*footer CSS*/
 
