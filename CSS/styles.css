@@ -242,12 +242,12 @@ h2 {
   margin-top: 120px;
 }
 
-/*
-.content4icons {
+.customers {
   flex: inline-block;
   flex-direction: row;
   justify-content: space-around;
 }
+
 /*div .customer-logo {
   border: 1px solid var(--lightslate);
   padding: 32px 32px;
