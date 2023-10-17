@@ -83,12 +83,16 @@ button:hover {
 }
 
 .title {
-  background-color: var(--Navy-Blue);
+  background-image: url('/Images/people_office.jpg');
+  background-size: cover;
+  background-position: center;
+  background-position-y: -135px;
+  height: 500px;
+
   font-size: 40px;
   color: var(--Cloud);
-}
 
-.title {
+  /* flex*/
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -99,6 +103,9 @@ button:hover {
   /*margins and padding*/
   padding-top: 200px;
   padding-bottom: 200px;
+}
+.titleoverlay {
+  background-color: var(--Navy-Blue) rgb(0, 0, 0, 0.5);
 }
 
 .herotitle {
@@ -126,7 +133,7 @@ button {
 }
 
 /* Main CSS */
-.section {
+.advantages_section {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -248,7 +255,7 @@ h2 {
   display: inline-flex;
   flex-direction: row;
   border: 1px solid var(--lightslate);
-  padding: 16px 32px;
+  padding: 16px 24px;
   border-radius: 4px;
   margin: 0px 12px 120px 12px;
 }
@@ -260,12 +267,7 @@ h2 {
 .customer-logo {
   fill: var(--lightslate);
 }
-/*div .customer-logo {
-  border: 1px solid var(--lightslate);
-  padding: 32px 32px;
-  border-radius: 4px;
-  margin: 0px 12px 120px 12px;
-}*/
+
 /*footer CSS*/
 
 .footer {
@@ -294,7 +296,7 @@ h2 {
   color: var(--Cloud);
   font-size: 16px;
 }
-/*Icons CSS*/
+/*Icons for footer and content 3 CSS*/
 
 .footer-icon {
   display: inline-block;
@@ -328,6 +330,7 @@ div .team-icon {
   display: flex;
   justify-content: flex-start;
 }
+
 /*** PORTFOLIO PAGE STYLES ***/
 
 /* Portfolio main Css*/
