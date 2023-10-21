@@ -86,13 +86,13 @@ button:hover {
 }
 
 .title {
-  background-image: url('/Images/people_office.jpg');
+  background-image: url('../Images/people_office.jpg');
   background-size: cover;
+  position: relative;
   background-position: center;
   background-position-y: -135px;
   height: 450px;
-  background-blend-mode: multiply;
-  background-color: gray;
+  width: 1158px;
 
   font-size: 40px;
   color: var(--Cloud);
@@ -110,9 +110,25 @@ button:hover {
   padding-bottom: 200px;
 }
 
+.titleoverlay {
+  background-color: rgb(73, 73, 73);
+  opacity: 0.7;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.button {
+  z-index: 10;
+}
+
 .herotitle {
   border: 0;
   padding-bottom: 24px;
+  z-index: 11;
 }
 
 .button {
