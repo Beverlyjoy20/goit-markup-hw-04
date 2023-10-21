@@ -346,8 +346,9 @@ h2 {
 .footer-icon:active {
   background: linear-gradient(
     to bottom,
-    var(--Iris) 0%,
-    var(--lightslate) 100%
+
+    var(--lightslate) 0%,
+    var(--Iris) 100%
   );
 }
 
