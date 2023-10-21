@@ -90,7 +90,7 @@ button:hover {
   background-size: cover;
   background-position: center;
   background-position-y: -135px;
-  height: 500px;
+  height: 450px;
   background-blend-mode: multiply;
   background-color: gray;
 
@@ -136,12 +136,14 @@ button {
 
 /* Main CSS */
 .advantages_section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--SLATE);
+  margin-left: 100px;
+  margin-right: 100px;
 }
 ul {
   list-style-type: none;
@@ -171,6 +173,15 @@ h2 {
   margin-bottom: 8px;
   border-radius: 4px;
 }
+
+.content1-iconcontainer:hover {
+  box-shadow: 5px 5px 5px 5px gray;
+  transform: scale(0.75);
+}
+.content1-iconcontainer:active {
+  background: linear-gradient(to bottom, #fff 0%, var(--lightslate) 100%);
+}
+
 .content1details {
   display: flex;
   flex-direction: column;
@@ -263,6 +274,12 @@ h2 {
   border-radius: 4px;
   margin: 0px 12px 120px 12px;
 }
+
+.customers:hover {
+  box-shadow: 1px 1px 1px 1px gray;
+  transform: scale(0.75);
+}
+
 .content4icons {
   display: flex;
   justify-content: center;
@@ -310,6 +327,19 @@ h2 {
   margin-top: 15px;
   margin-right: 8px;
 }
+
+.footer-icon:active {
+  background: linear-gradient(
+    to bottom,
+    var(--Iris) 0%,
+    var(--lightslate) 100%
+  );
+}
+
+.footer-icon:hover {
+  transform: scale(1.5);
+}
+
 div .teamsocialicons {
   margin-bottom: 32px;
 }
@@ -335,16 +365,17 @@ div .team-icon {
   justify-content: flex-start;
 }
 
+.team-icon:hover {
+  transform: scale(1.5);
+  background: var(--Iris);
+}
+
 .team-icon:active {
-  display: inline-block;
-  flex-direction: row;
-  align-items: center;
-  gap: 8px;
-  padding: 5px;
-  background-color: gray;
-  border-radius: 50%;
-  margin-top: 15px;
-  margin-right: 8px;
+  background: linear-gradient(
+    to bottom,
+    var(--lightslate) 0%,
+    var(--Iris) 100%
+  );
 }
 
 /*** PORTFOLIO PAGE STYLES ***/
