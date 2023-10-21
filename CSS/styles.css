@@ -389,8 +389,8 @@ div .team-icon {
 .team-icon:active {
   background: linear-gradient(
     to bottom,
-    var(--lightslate) 0%,
-    var(--Iris) 100%
+    var(--Iris) 0%,
+    var(--lightslate) 100%
   );
 }
 
