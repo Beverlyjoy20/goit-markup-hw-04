@@ -1,0 +1,9 @@
+{
+  "liveServer.settings.CustomFiles": [
+    {
+      "match": "**/*.svg",
+      "fn": "location.reload",
+      "injection": "disable"
+    }
+  ]
+}
